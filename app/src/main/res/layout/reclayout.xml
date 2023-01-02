@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+<!--    <TextView-->
+<!--        android:id="@+id/expenseDesign"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="44dp"-->
+<!--        android:text="expense"-->
+<!--        android:textColor="#131313"-->
+<!--        android:textSize="30sp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.082"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/amountDesign"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="48dp"-->
+<!--        android:text="amount"-->
+<!--        android:textColor="#EC1010"-->
+<!--        android:textSize="20sp"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/expenseDesign"-->
+<!--        app:layout_constraintHorizontal_bias="0.395"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/expenseDesign"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/expenseDesign" />-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="26sp"
+            android:text="expense"
+            android:textColor="@color/black"
+            android:id="@+id/expenseDesign"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="expense"
+            android:textColor="@color/purple_500"
+            android:id="@+id/amountDesign"
+            android:layout_below="@+id/expenseDesign"
+            android:layout_marginTop="1dp"
+
+
+            />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
